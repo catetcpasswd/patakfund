@@ -9,6 +9,7 @@ script(type='text/javascript', src='/lib/select2/select2.js')
 script(type='text/javascript', src='/lib/angular/angular.js')
 script(type='text/javascript', src='/lib/angular-cookies/angular-cookies.js')
 script(type='text/javascript', src='/lib/angular-resource/angular-resource.js')
+script(type='text/javascript', src='/lib/angular-route/angular-route.js')
 script(type='text/javascript', src='/lib/angular-file-upload/angular-file-upload.js')
 
 script(type='text/javascript', src='/lib/angular-ui-select2/src/select2.js')
@@ -18,11 +19,12 @@ script(type='text/javascript', src='/lib/angular-ui-date/src/date.js')
 script(type='text/javascript', src='/lib/angular-bootstrap/ui-bootstrap-tpls.js')
 //script(type='text/javascript', src='/lib/angular-bootstrap/ui-bootstrap-tpls-0.70-SNAPSHOT.min.js')
 script(type='text/javascript', src='/lib/angular-ui-utils/modules/route/route.js')
+script(type='text/javascript', src='/lib/angular-ui-router/release/angular-ui-router.js')
 
 //Application Init
 
 script(type='text/javascript', src='/js/app.js')
-script(type='text/javascript', src='/js/config.js')
+//script(type='text/javascript', src='/js/config.js')
 
 script(type='text/javascript', src='/js/directives/directives.js')
 
@@ -38,7 +40,8 @@ script(type='text/javascript', src='/js/services/timezones.js')
 
 //Application Controllers
 script(type='text/javascript', src='/js/controllers/index.js')
-script(type='text/javascript', src='/js/controllers/header.js')	
+//script(type='text/javascript', src='/js/controllers/header.js')
+script(type='text/javascript', src='/js/controllers/menu.js')	
 script(type='text/javascript', src='/js/init.js')
 
 script(type='text/javascript', src='/js/controllers/modal.js')	

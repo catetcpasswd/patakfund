@@ -1,7 +1,7 @@
 {
   "name": "mean",
   "description": "PATAK - Droplets using MEAN.",
-  "version": "1.0.0-2",
+  "version": "1.0.0-1",
   "private": false,
   "author": "Randy Gonzales",
   "repository": {
@@ -9,8 +9,8 @@
     "url": "https://github.com/randygit/mean.git"
   },
   "engines": {
-    "node": "0.10.x",
-    "npm": "1.2.x"
+    "node": "0.10.20",
+    "npm": "1.2.30"
   },
   "scripts": {
     "postinstall": "node node_modules/grunt-cli/bin/grunt build",

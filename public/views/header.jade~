@@ -1,3 +1,4 @@
+//div(data-ng-controller='MenuController')
 div(data-ng-controller='HeaderController')
     .container
         .nav-header
@@ -19,14 +20,18 @@ div(data-ng-controller='HeaderController')
               a(href='/about') About
             li
               a(href='/contact') Contact 
-            li(data-ng-repeat='item in menu', data-ng-show='global.user', ui-route='/{{item.link}}', ng-class='{active: $uiRoute}')
+            li(data-ng-repeat='item in menu', data-ng-show='global.user')
               a(href='#!/{{item.link}}') {{item.title}}
+
+          div(ui-view='ui-view')
+
           ul.nav.navbar-nav.navbar-right(data-ng-hide='global.authenticated')
             li
               a(href='/signup') Sign up
             li
               a(href='/login')
                 span.glyphicon.glyphicon-user
+
                 | Sign In
           ul.nav.navbar-nav.navbar-right(data-ng-show='global.authenticated')
             li.dropdown

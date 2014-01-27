@@ -1,4 +1,4 @@
-window.app = angular.module('mean', ['ngCookies', 'ngResource', 'ui.bootstrap', 'ui.route', 'ui.select2', 'ui.date','angularFileUpload',  'mean.system', 'mean.articles', 'mean.contacts','dialog.controllers', 'dialog.services', 'dialogs']);
+window.app = angular.module('mean', ['ngCookies',  'ngResource', 'ui.bootstrap', 'ui.router', 'ui.select2', 'ui.date','angularFileUpload',  'mean.system', 'mean.articles', 'mean.contacts','dialog.controllers', 'dialog.services', 'dialogs']);
 
 angular.module('mean.system', []);
 angular.module('mean.articles', []);
